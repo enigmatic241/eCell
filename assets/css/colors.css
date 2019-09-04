@@ -1,9 +1,6 @@
 /*
-* Theme Name: BusinessPerfect
-* Theme URI: businessperfect.com
-* Author: Milan Savov
-* Author URI/Mail: milan.savov@gmail.com
-* Version: 1.0
+* Website: ecell iiit lucknow
+* Developers: Web Team Ecell IIIT LUCKNOW
 * */
 
 /* COLORS
@@ -12,7 +9,7 @@
 /* CUSTOM RESETS
 ================================================== */
 a {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 a:focus,
@@ -28,7 +25,7 @@ a:hover {
 }
 
 .btn-yellow {
-  background-color: #ffd500; 
+  background-color: #4169E1; 
   color: #fff;
 }
 
@@ -48,12 +45,12 @@ a:hover {
 }
 
 .btn-yellow-border {
-  border: 1px solid #ffd500;
+  border: 1px solid #4169E1;
 }
 
 .btn.btn-yellow-border:hover,
 .btn.btn-yellow-border:focus {
-  background-color: #ffd500; 
+  background-color: #4169E1; 
   color: #fff; 
 }
 
@@ -77,12 +74,12 @@ a:hover {
 }
 
 .form-control:focus{
-  border-color: #ffd500;
+  border-color: #4169E1;
 }
 
 input[type=search] + button:hover,
 input[type=search] + button:focus {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 /* Checkbox fields */
@@ -94,17 +91,17 @@ input[type=search] + button:focus {
 
 .checkbox [type="checkbox"]:not(:checked) + label:after,
 .checkbox [type="checkbox"]:checked + label:after {
-  color: #ffd500;;
+  color: #4169E1;;
 }
 
 .checkbox [type="checkbox"]:checked:focus + label:before,
 .checkbox [type="checkbox"]:not(:checked):focus + label:before {
-  border: 1px dotted #ffd500;
+  border: 1px dotted #4169E1;
 }
 
 .checkbox [type="checkbox"]:not(:checked) + label:hover:before,
 .checkbox [type="checkbox"]:checked + label:hover:before {
-  border: 1px solid #ffd500;
+  border: 1px solid #4169E1;
 }
 
 /* Radiobutton fields */
@@ -116,17 +113,17 @@ input[type=search] + button:focus {
 
 .radio-btn [type="radio"]:not(:checked) + label:after,
 .radio-btn [type="radio"]:checked + label:after {
-  background-color: #ffd500;
+  background-color: #4169E1;
 }
 
 .radio-btn [type="radio"]:checked:focus + label:before,
 .radio-btn [type="radio"]:not(:checked):focus + label:before {
-  border: 1px dotted #ffd500;
+  border: 1px dotted #4169E1;
 }
 
 .radio-btn [type="radio"]:checked + label:hover:before,
 .radio-btn [type="radio"]:not(:checked) + label:hover:before {
-  border: 1px solid #ffd500;
+  border: 1px solid #4169E1;
 }
 
 /* Selectpicker */
@@ -138,7 +135,7 @@ input[type=search] + button:focus {
 .selectpicker-styled:hover,
 .selectpicker-styled:active, 
 .selectpicker-styled.active {
-  border-color: #ffd500;
+  border-color: #4169E1;
 }
 
 .selectpicker-options {
@@ -146,13 +143,13 @@ input[type=search] + button:focus {
 }
 
 .selectpicker-options li {
-  border: 1px solid #ffd500;
+  border: 1px solid #4169E1;
   border-top: 0; 
 }
 
 .selectpicker-options li:hover {
-  color: #ffd500;
-  border-color: #ffd500;
+  color: #4169E1;
+  border-color: #4169E1;
 }
 
 
@@ -164,8 +161,8 @@ input[type=search] + button:focus {
 }
 
 .nav-tabs.tab-style > li.active > a {
-  background-color: #ffd500;
-  border: 1px solid #ffd500;
+  background-color: #4169E1;
+  border: 1px solid #4169E1;
 }
 
 .nav-tabs.tab-style > li > a {
@@ -175,7 +172,7 @@ input[type=search] + button:focus {
 }
 
 .nav-tabs.tab-style > li > a:hover {
-  border-color: #ffd500;
+  border-color: #4169E1;
 }
 
 /* Accordion */
@@ -193,11 +190,11 @@ input[type=search] + button:focus {
 
 .accordion .panel-heading a.collapsed:hover,
 .accordion.accordion-gray .panel-heading a.collapsed:hover{
-  background-color: #ffd500;   
+  background-color: #4169E1;   
 }
 
 .accordion .panel-heading a {
-  background-color: #ffd500;
+  background-color: #4169E1;
 }
 
 .accordion .panel-group .panel-heading + .panel-collapse > .panel-body,
@@ -222,7 +219,7 @@ input[type=search] + button:focus {
 }
 
 .yellow-bg {
-  background-color: #ffd500;  
+  background-color: #4169E1;  
 }
 
 .black-bg {
@@ -247,7 +244,7 @@ a.white-text:hover {
 }
 
 .yellow-text {
-  color: #ffd500;  
+  color: #4169E1;  
 }
 
 .breadcrumb li a {
@@ -255,7 +252,7 @@ a.white-text:hover {
 }
 
 .breadcrumb .active {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 /* Pagination */
@@ -267,7 +264,7 @@ a.white-text:hover {
 .pagination > li.active > a,
 .pagination > li > a:hover,
 .pagination > li.active > a:hover {
-  background-color: #ffd500;
+  background-color: #4169E1;
   color: #fff;
 }
 
@@ -289,7 +286,7 @@ a.white-text:hover {
 }
 
 .site-title.yellow-text:hover  {
-  color: #ffd500;   
+  color: #4169E1;   
 }
 
 /* Navigation */
@@ -304,7 +301,7 @@ a.white-text:hover {
 .slicknav_nav li.active > a,
 .slicknav_nav .dropdown.active > a a,
 .slicknav_nav .active .active a {
-  color: #ffd500;  
+  color: #4169E1;  
 }
 
 .slicknav_nav > li > a .slicknav_arrow {
@@ -314,7 +311,7 @@ a.white-text:hover {
 .dropdown-menu li.active a,
 .dropdown-menu li.active a:hover {
   background-color: transparent;
-  color: #ffd500;    
+  color: #4169E1;    
 }
 
 .navbar-nav > li > a:hover,
@@ -331,7 +328,7 @@ a.white-text:hover {
 }
 
 .dropdown-menu {
-  border-top: 5px solid #ffd500; 
+  border-top: 5px solid #4169E1; 
 }
 
 /* HERO
@@ -345,7 +342,7 @@ a.white-text:hover {
 }
 
 .hero-arrow a:hover {
-  color: #ffd500; 
+  color: #4169E1; 
 }
 
 /* SITEMAIN
@@ -361,7 +358,7 @@ a.white-text:hover {
 }
 
 .service-icon .fa {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 /* Section: Counter */
@@ -372,7 +369,7 @@ a.white-text:hover {
 /* Section: Team */
 
 .team-member-position {
-  color: #ffd500; 
+  color: #4169E1; 
 }
 
 .team-member-text {
@@ -427,8 +424,8 @@ a.white-text:hover {
  */
 .portfolio-sorting .active,
 .portfolio-sorting .btn:active {
-  background-color: #ffd500; 
-  border-color: #ffd500; 
+  background-color: #4169E1; 
+  border-color: #4169E1; 
   color: #fff;
 }
 
@@ -455,7 +452,7 @@ a.white-text:hover {
 
 a.post-title:hover,
 .blog-post > a:hover + .post-content .post-title {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 .post-meta li + li:before {
@@ -467,7 +464,7 @@ a.post-title:hover,
 }
 
 .post-meta li a:hover {
-  color: #ffd500;;
+  color: #4169E1;;
 } 
 
 /* 
@@ -478,12 +475,12 @@ a.post-title:hover,
 }
 
 .widget-categories li a:hover {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 /* Latest-posts */
 .posts-list li a:hover .widget-post-title {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 .widget-post-title {
@@ -501,7 +498,7 @@ a.post-title:hover,
 }
 
 .widget-tags ul li a:hover {
-  background-color: #ffd500;
+  background-color: #4169E1;
   color: #fff;
 }
 
@@ -542,7 +539,7 @@ a.post-title:hover,
 }
 
 .copyright .yellow-text:hover {
-  color: #ffd500;
+  color: #4169E1;
 }
 
 /* Small Devices, Tablets */
@@ -557,7 +554,7 @@ a.post-title:hover,
   }
 
   .nav-tabs.tab-style > li > a:hover {
-    border-bottom-color: #ffd500;   
+    border-bottom-color: #4169E1;   
   }
 
   .slicknav_nav > li a {
