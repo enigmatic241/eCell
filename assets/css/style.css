@@ -1231,11 +1231,18 @@ display: none;
   background-color: #f9f8f8;
   border-radius: 50%;
 }
+.fa-egg{
+  color:#4169E1;
+  font-size:30px;
+  padding-top: 25%;
+
+}
 
 .service-icon .fa {
   font-size: 30px;
   line-height: 65px;
-  color: #ffd500;
+  color: #4169E1
+  ;
 }
 
 .service-title {
