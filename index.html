@@ -20,14 +20,12 @@
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Favicon
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png"> -->
 
     <!-- Stylesheets
     ================================================== -->
@@ -44,7 +42,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>    
 </head>
 <body>
 
@@ -56,7 +54,7 @@
 
                 <div class="navbar-header">
                     
-                    <a href="index.html" class="site-title yellow-text">E-CELL <span class="white-text">IIIT LUCKNOW</span></a>
+                    <a href="index.html" class="site-title yellow-text">E-CELL <span class="white-text">IIT LUCKNOW</span></a>
 
                 </div><!-- /.navbar-header -->
 
@@ -75,6 +73,7 @@
                             </ul><!-- /.dropdown-menu -->
                         </li><!-- /.dropdown -->
                         <li><a href="contact.html">Contact</a></li>
+                        <!-- <li><a href="ui-elements.html">UI Elements</a></li> -->
                         
                     </ul><!-- /.navbar-nav -->
 
@@ -84,12 +83,13 @@
                       
         </nav><!-- /.site-navigation -->
         
-    </header>
+    </header><!-- /#masthead -->
 
     <div class="hero background-overlay">
     
         <div class="hero-text">
-            <h1>E-CELL IIIT LUCKNOW</h1>
+            <h1 style="font-size:4em">E-CELL IIIT LUCKNOW</h1>
+            <h1 style="color:blue; height:69px;text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
         </div> <!-- /.hero-text -->
         <div class="hero-arrow">
             <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -103,15 +103,13 @@
 
             <div class="container">
 
-
-                <p class="section-title">Vision</p>
-                <p class="section-text">We at E-Cell IIIT Lucknow believe in creating an entrepreneurial ecosystem for 
-
+                <p class="quote">Vision</p>
+                <p class="quote-owner yellow-text">We at E-Cell IIIT Lucknow believe in creating an entrepreneurial ecosystem for 
                     creative minds to convert spark of their ideas into a wildfire that can impact the world.</p>
                 
             </div>
             
-        </section><!-- vision-->
+        </section><!-- /.section-quote -->
 
         <section class="site-section section-works light-gray-bg text-center">
 
@@ -124,7 +122,7 @@
                 <div class="multi-item-controls">
                     <a class="left btn carousel-control" href="#threeSlidesSlider" data-slide="next"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
                     <a class="right btn carousel-control" href="#threeSlidesSlider" data-slide="prev"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                </div><!--image nevigator -->
+                </div><!-- /.multi-item-controls -->
 
             </div>
 
@@ -140,19 +138,19 @@
                                     <div class="col-xs-6 col-sm-4">
                                         <img src="assets/img/slider-1.jpg" alt="" class="img-carousel">
                                     </div>
-                                </div>
+                                </div><!-- /.item -->
                                   <div class="item">
                                     <div class="col-xs-6 col-sm-4">
                                         <img src="assets/img/slider-2.jpg" alt="" class="img-carousel">
                                     </div>
-                                </div>
+                                </div><!-- /.item -->
                                   <div class="item">
                                     <div class="col-xs-6 col-sm-4">
                                         <img src="assets/img/slider-3.jpg" alt="" class="img-carousel">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                </div><!-- /.item -->
+                            </div><!-- /.carousel-inner -->
+                        </div><!-- /.multi-item-carousel -->
 
                     </div>
 
@@ -181,13 +179,13 @@
 
                             <div class="service-icon">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                            </div><!--/Initiate icon -->
+                            </div><!-- /.service-icon -->
                             <div class="service-content">
                                 <h4 class="service-title">Initiate</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                            </div><!-- /Description -->
+                            </div><!-- /.service-content -->
 
-                        </div>
+                        </div><!-- /.service -->
                         
                     </div>
 
@@ -196,23 +194,24 @@
                         <div class="service">
 
                             <div class="service-icon">
-                                <i class="fas fa-egg"></i>
+                                <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                             </div>
-                            <!-- incubate icon -->
+                            <!-- /.service-icon -->
                             <div class="service-content">
                                 <h4 class="service-title">Incubate</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                            </div><!-- description -->
+                            </div><!-- /.service-content -->
 
-                        </div>
+                        </div><!-- /.service -->
                         
                     </div>
+
                     <div class="col-xs-4">
 
                         <div class="service">
     
                             <div class="service-icon">
-                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                             </div>
                             <!-- /.service-icon -->
                             <div class="service-content">
@@ -227,9 +226,339 @@
                 </div>
                 
             </div>
+        -->
         </section> 
-
         
+        
+        
+        
+        
+        
+        
+        <!-- /.section-counters -->
+<!-- this is counter section -->
+
+        <!-- <section class="site-section-small section-counters light-gray-bg text-center">
+
+            <div class="container-fluid">
+                
+                <div class="row">
+                
+                    <div class="col-sm-3 col-xs-6 counter-line">
+                        <h4 class="small-title">Cups of Coffee</h4>
+                        <p class="counter" data-to="1520" data-speed="2000">1520</p>   -->
+                    <!-- </div> -->
+                    <!-- /.counter-item -->
+                    
+                    <!-- <div class="col-sm-3 col-xs-6 counter-line">
+                        <h4 class="small-title">Happy Clients</h4>
+                        <p class="counter" data-to="426" data-speed="2000">426</p>             
+                    </div> -->
+                    <!-- /.counter-item -->
+
+                    <!-- <div class="col-sm-3 col-xs-6 counter-line">
+                        <h4 class="small-title">Projects Done</h4>
+                        <p class="counter" data-to="512" data-speed="2000">512</p>
+                        
+                    </div> -->
+                    <!-- /.counter-item -->
+
+                    <!-- <div class="col-sm-3 col-xs-6 counter-line">
+                        <h4 class="small-title">Ideas</h4>
+                        <p class="counter" data-to="423" data-speed="2000">423</p>   
+                    </div> -->
+                    <!-- /.counter-item -->
+
+                <!-- </div>
+
+            </div>
+            
+        </section> -->
+        <!-- /.section-counters -->
+
+
+
+
+
+
+
+
+
+
+        <section class="site-section-small section-team">
+
+            <div class="container">
+
+                <div class="text-center">
+                    <h3 class="section-title">Super Team</h3>
+                    <p class="section-text">team ecell iiit lucknow</p>
+                </div>
+                                    
+                <div class="row">
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="carousel carousel-sync one-slide-slider slide" id="oneSlideSlider">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-sm-12">
+                                        <div class="team-member">
+                                            <div class="team-member-img">
+                                                <img class="img-carousel" src="//" alt="">
+                                            </div><!-- /.team-member-img -->
+                                            <div class="team-member-info">
+                                                <h4 class="team-member-name">Mrigank</h4>
+                                                <h5 class="team-member-position">Event Manager</h5>
+                                                <p class="team-member-text">I am Workoholic</p>
+                                                <div class="social-links">
+                                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div><!-- /.social-links -->
+                                            </div><!-- /.team-member-info -->
+                                        </div><!-- /.team-member -->
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-12">
+                                        <div class="team-member">
+                                            <div class="team-member-img">
+                                                <img class="img-carousel" src="//" alt="">
+                                            </div><!-- /.team-member-img -->
+                                            <div class="team-member-info">
+                                                <h4 class="team-member-name">Abhinav Srivastava</h4>
+                                                <h5 class="team-member-position">Cell Executive</h5>
+                                                <p class="team-member-text">I am Workoholic.</p>
+                                                <div class="social-links">
+                                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div><!-- /.social-links -->
+                                            </div><!-- /.team-member-info -->
+                                        </div><!-- /.team-member -->
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-12">
+                                        <div class="team-member">
+                                            <div class="team-member-img">
+                                                <img class="img-carousel" src="//" alt="">
+                                            </div><!-- /.team-member-img -->
+                                            <div class="team-member-info">
+                                                <h4 class="team-member-name">Ajai Dubey</h4>
+                                                <h5 class="team-member-position">Coordinator</h5>
+                                                <p class="team-member-text">I am Workoholic</p>
+                                                <div class="social-links">
+                                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div><!-- /.social-links -->
+                                            </div><!-- /.team-member-info -->
+                                        </div><!-- /.team-member -->
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-12">
+                                        <div class="team-member">
+                                            <div class="team-member-img">
+                                                <img class="img-carousel" src="//" alt="">
+                                            </div><!-- /.team-member-img -->
+                                            <div class="team-member-info">
+                                                <h4 class="team-member-name">Vishal mishra</h4>
+                                                <h5 class="team-member-position">CR/ startup head</h5>
+                                                <p class="team-member-text">I am Workoholic</p>
+                                                <div class="social-links">
+                                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div><!-- /.social-links -->
+                                            </div><!-- /.team-member-info -->
+                                        </div><!-- /.team-member -->
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-12">
+                                        <div class="team-member">
+                                            <div class="team-member-img">
+                                                <img class="img-carousel" src="//" alt="">
+                                            </div><!-- /.team-member-img -->
+                                            <div class="team-member-info">
+                                                <h4 class="team-member-name">Naimish Rastogi</h4>
+                                                <h5 class="team-member-position">Finance Manager</h5>
+                                                <p class="team-member-text">I am Workoholic.</p>
+                                                <div class="social-links">
+                                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div><!-- /.social-links -->
+                                            </div><!-- /.team-member-info -->
+                                        </div><!-- /.team-member -->
+                                    </div>
+                                </div><!-- /.item -->
+                            </div><!-- /.carousel-inner -->
+                        </div><!-- /.carousel -->
+                    </div>
+
+                    <div class="col-md-8 col-md-offset-2 hidden-xs">
+                        <div class="carousel carousel-sync four-slides-slider multi-item-carousel slide" data-interval="false" id="fourSlidesSlider">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-sm-4 col-md-3">
+                                      <img src="//" alt="" class="img-carousel">
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-4 col-md-3">
+                                      <img src="//" alt="" class="img-carousel">
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-4 col-md-3">
+                                      <img src="//" alt="" class="img-carousel">
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-4 col-md-3">
+                                      <img src="//" alt="" class="img-carousel">
+                                    </div>
+                                </div><!-- /.item -->
+                                <div class="item">
+                                    <div class="col-sm-4 col-md-3">
+                                      <img src="//" alt="" class="img-carousel">
+                                    </div>
+                                </div><!-- /.item -->
+                            </div><!-- /.carousel-inner -->
+                        </div><!-- /.multi-item-carousel -->
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="multi-item-controls text-center">
+                            <a href="#fourSlidesSlider" class="left btn btn-gray-border carousel-control" data-slide="prev"><i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </a>
+                            <a href="#fourSlidesSlider" class="right btn btn-gray-border carousel-control" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </div><!-- /.multi-item-controls -->
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </section><!-- /.section-team -->
+
+        <section class="site-section-small section-clients light-gray-bg">
+
+            <div class="container">
+
+                <h3 class="section-title text-center mb-120">whom to concern</h3>
+
+                <div class="row">
+
+                    <div class="testimonials">
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-1">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>mrigank</p>
+                                        <p class="yellow-text italic-text">team web</p>
+                                    </div><!-- /.testimonial-owner -->
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-2">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>mrigank</p>
+                                        <p class="yellow-text italic-text">team web</p>
+                                    </div><!-- /.testimonial-owner -->                                   
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-1">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>mrigank</p>
+                                        <p class="yellow-text italic-text">team web</p>
+                                    </div><!-- /.testimonial-owner -->
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-2">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>mrigank</p>
+                                        <p class="yellow-text italic-text">team web</p>
+                                    </div><!-- /.testimonial-owner -->
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-1">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>mrigank</p>
+                                        <p class="yellow-text italic-text">web team</p>
+                                    </div><!-- /.testimonial-owner -->                                  
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                        <div class="col-md-6"> 
+
+                            <div class="testimonial">
+                                <div class="testimonial-content testimonial-2">
+                                    <p class="testimonial-text">my name is mrigank</p> 
+                                    <div class="testimonial-owner">
+                                        <p>Mrigank mourya</p>
+                                        <p class="yellow-text italic-text">web team</p>
+                                    </div><!-- /.testimonial-owner -->                        
+                                </div><!-- /.testimonial-content -->
+                            </div><!-- /.testimonial -->
+
+                        </div>
+
+                    </div><!-- /.testimonials -->
+
+                </div>
+
+            </div>
+            
+        </section><!-- /.section-clients -->
+
         <section class="site-section-small section-work-with-us yellow-bg text-center">
 
             <div class="container">
@@ -240,10 +569,15 @@
             </div>
             
         </section><!-- /.section-work-with-us -->
-    <!--Map-->
-        <div id="map">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1497.3124439963308!2d81.0232610761291!3d26.800828962791567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be37eb0826741%3A0x34d9dd79cdeac7d8!2sIIIT%20Lucknow!5e0!3m2!1sen!2sin!4v1567697983020!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div id="map">
+            <!-- How to change your own map point
+                1. Go to Google Maps
+                2. Click on your location point
+                3. Click "Share" and choose "Embed map" tab
+                4. Copy only URL and paste it within the src="" field below
+            -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.2290910536026!2d81.02202081504258!3d26.80083318317589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be37eb0826741%3A0x34d9dd79cdeac7d8!2sIIIT%20Lucknow!5e0!3m2!1sen!2sin!4v1567603522016!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         <section class="social-networks">
 
@@ -252,9 +586,9 @@
                 <div class="row">
 
                     <a class="white-text black-bg twitter-bg" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="white-text gray-bg facebook-bg" href="https://www.facebook.com/ecelliiitl/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="white-text black-bg google-plus-bg" href="mailto:ecell@iiitl.ac.in" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    <a class="white-text gray-bg linkedin-bg" href="https://www.linkedin.com/company/e-cell-iiit-lucknow/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="white-text gray-bg facebook-bg" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="white-text black-bg google-plus-bg" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a class="white-text gray-bg message-bg" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
  
                 </div>
                 
@@ -271,7 +605,7 @@
         <div class="container">
 
             <div class="email">
-                <a href="mailto:ecell@iiitl.ac.in">ecell@iiitl.ac.in</a>
+                <a href="mailto:hello@businessperfect.com">ECELL@IIITLUCKNOW.com</a>
             </div><!-- /.email -->
 
             <div class="row">
@@ -290,9 +624,9 @@
                     <div class="mb-xs-20">
                         <h4 class="small-title">Get in touch</h4>
                         <ul class="list-unstyled">
-                            <li>Phone: <a href="tel:+919161994909">+91-9161994909</a></li>
-                            <li>Email: <a href="mailto:ecell@iiitl.ac.in">ecell@iiitl.ac.in</a></li>
-                            <!-- <li>Fax: <a href="tel:+15417543010">+1-541-754-3010</a></li> -->
+                            <li>Phone: <a href="tel:+15417543010">+1-541-754-3010</a></li>
+                            <li>Email: <a href="">ECELL@IIITLUCKNOW.com</a></li>
+                            <li>Fax: <a href="tel:+15417543010">+1-541-754-3010</a></li>
                         </ul>   
                     </div>
                     
@@ -301,7 +635,7 @@
                 <div class="col-md-3 col-xs-6">
 
                     <div class="mb-xs-20">
-                        <h4 class="small-title">Important Links</h4>
+                        <h4 class="small-title">Links</h4>
                         <ul class="list-unstyled">
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="teams.html">Teams</a></li>
@@ -317,9 +651,8 @@
                         <h4 class="small-title">Location</h4>
                         <ul class="list-unstyled">
                             <li>IIIT LUCKNOW</li>
-                            <li>Mastemau, Lucknow</li>
-                            <li>Uttar Pradesh 226002</li>
-                            
+                            <li>Ahmamau,Gomti nagar</li>
+                            <li>pin:</li>
                         </ul>
                     </div>
 
@@ -333,10 +666,21 @@
             <p>&copy; E-CELL IIIT LUCKNOW | Made with <font style="color:red">&hearts;</font> by <a href="" class="yellow-text">WEB TEAM</a></p>
         </div><!-- /.copyright -->
         
-    </footer><!--site-footer -->
+    </footer><!-- /.site-footer -->
 
     <!-- Bootstrap core JavaScript
-    Placed at the end of the document so the pages load faster -->
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        var typed = new Typed('#typed', {
+          strings:["INITIATE","INCUBATE","ELEVATE"],
+          typeSpeed:100,
+          backSpeed:2,
+          loop:true,
+          loopCount:Infinity,
+          smartBackspace: false,
+        });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
