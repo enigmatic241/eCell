@@ -1,13 +1,5 @@
-/*
-* Theme Name: BusinessPerfect
-* Theme URI: milansavov.com/freebies/businessperfect
-* Author: Milan Savov
-* Author URI: milansavov.com
-* Version: 1.0
-* */
 
-/* TABLE OF CONTENT 
-*
+/*
 * - CUSTOM RESETS
     - Buttons
     - Forms
@@ -23,17 +15,11 @@
 * - HOMEPAGE SECTIONS
     - Quote 
     - Featured Works
-    - Service 
-    - Counter 
-    - Team 
-    - Clients 
+    - Service  
+    - Team  
     - Social networks 
 * - PAGES
     - ABOUT-US
-    - PORTFOLIO
-    - PORTFOLIO ITEM
-    - BLOG
-    - BLOG POST
     - CONTACT
 * - FOOTER
 *
@@ -54,7 +40,7 @@ a {
   height:40%;
 }
 .right-nav-links{
-  margin-top:4.5%;
+  margin-top:1.5%;
 } 
 a:focus,
 a:hover {
@@ -902,7 +888,7 @@ blockquote {
 /* HEADER
 ================================================== */
 .site-header {
-  padding: 10px 0;
+  padding: 4px 10px;
   background-color: rgba(59,58,54,0);
   position: fixed;
   width: 100%;
@@ -1020,7 +1006,7 @@ blockquote {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/main-pic.jpg) center no-repeat;
+  background: url(../img/210889.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -1038,10 +1024,6 @@ blockquote {
 
 .hero-contact {
  background: url(../img/contact.jpg) center no-repeat / cover; 
-}
-
-.hero-ui-elements {
- background: url(../img/ui-elements.jpg) center no-repeat / cover; 
 }
 
 .background-overlay:before {
@@ -1139,7 +1121,7 @@ blockquote {
   max-width: 1000px;
   margin: 0 auto 60px;
   font-size:30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* PAGES
@@ -1177,10 +1159,12 @@ blockquote {
   height: 400px;
 }
 
-.section-works .container-fluid {
+.section-works{
   padding: 0 7.5px;
 }
-
+.container-fluid {
+  padding: 0px;
+}
 .multi-item-controls {
   margin: 60px 0;
   height: 45px;
