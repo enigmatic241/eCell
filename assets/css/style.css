@@ -1489,6 +1489,9 @@ display: none;
   bottom: 0;
   margin-top: 20px;
 }
+.fa,.far{
+  color:white;
+}
 
 .section-clients-2 .slick-dots {
   top: auto;
