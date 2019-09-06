@@ -44,7 +44,18 @@
 a { 
     color: #ffd500;
 }
-
+.site-logo{
+  width:14%;
+  height:14%;
+  margin-top: 0%;
+}
+.footer-logo{
+  width:40%;
+  height:40%;
+}
+.right-nav-links{
+  margin-top:4.5%;
+} 
 a:focus,
 a:hover {
     color: #3B3A36;
@@ -926,6 +937,7 @@ blockquote {
 /* Navigation */
 .navbar-nav.navbar-right {
   margin-right: 0;
+  font-size:1.5em;
 }
 
 .navbar-nav > li > a,
