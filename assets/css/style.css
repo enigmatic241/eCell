@@ -1006,7 +1006,7 @@ blockquote {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/210889.jpg) center no-repeat;
+  background: url(../img/we-are-creative.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -1019,11 +1019,13 @@ blockquote {
 }
 
 .hero-about-us {
- background: url(../img/about-us.jpg) center no-repeat / cover; 
+ background-image: url(../img/about-us.jpg);
+ background-size: center cover; 
 }
 
 .hero-contact {
- background: url(../img/contact.jpg) center no-repeat / cover; 
+ background-image: url(../img/contact-2.jpg);
+ background-size: center cover;
 }
 
 .background-overlay:before {
@@ -1092,20 +1094,20 @@ blockquote {
 }
 
 .site-section-small {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .section-title {
   position: relative;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   padding: 0 0 30px 0;
   margin: 0;
 }
 
 .section-title-big {
-  font-size: 64px;
-  margin:0 0 60px 0;
+  font-size: 34px;
+  margin:0 0 20px 0;
   font-weight: 700;
 }
 
@@ -1119,8 +1121,8 @@ blockquote {
 
   line-height: 25px;
   max-width: 1000px;
-  margin: 0 auto 60px;
-  font-size:30px;
+  margin: 0px auto 5px;
+  font-size:20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -1166,7 +1168,7 @@ blockquote {
   padding: 0px;
 }
 .multi-item-controls {
-  margin: 60px 0;
+  margin: 30px 0;
   height: 45px;
 }
 
@@ -1212,7 +1214,7 @@ display: none;
 }
 
 .service + .service {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .service p:last-child {
@@ -1230,7 +1232,7 @@ display: none;
 .fa-egg{
   color:#4169E1;
   font-size:30px;
-  padding-top: 25%;
+  padding-top: 10%;
 
 }
 
@@ -1933,7 +1935,7 @@ a.post-title:hover,
 /* Section: contact-us */
 .section-contact-us .site-section-small {
   position: relative;
-  height: 600px;
+  height: 400px;
 }
 
 .get-in-touch {
@@ -1970,14 +1972,14 @@ a.post-title:hover,
 /* FOOTER
 ================================================== */
 .site-footer {
-  padding-top: 100px;
+  padding-top: 40px;
   background: #fff;
   position: relative;
 }
 
 .site-footer .row {
-  margin-top: 70px;
-  margin-bottom: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .email {
