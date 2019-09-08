@@ -23,7 +23,7 @@
     - CONTACT
 * - FOOTER
 *
-*/
+*/ 
 
 /* CUSTOM RESETS
 ================================================== */
@@ -2174,4 +2174,10 @@ a.post-title:hover,
 
 .container .row{
   padding: 50px;
+}
+
+.typed-cursor{
+  text-align: center;
+  font-size:45px;
+  color:black;
 }

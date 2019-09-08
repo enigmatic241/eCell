@@ -15,7 +15,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Exo|Noto+Sans|Orbitron|Oswald|Playfair+Display+SC|Poiret+One|Open+Sans:400,300,600,700|Rajdhani|Raleway|Red+Hat+Display&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -33,6 +33,9 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
     <link href="assets/css/colors.css" rel="stylesheet">
+
+    <!-- Typejs link CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -85,6 +88,7 @@
     
         <div class="hero-text">
             <h1>E-CELL IIIT LUCKNOW</h1>
+            <h1 style="color:blue; height:69px;text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
         </div> <!-- /.hero-text -->
         <div class="hero-arrow">
             <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -329,6 +333,18 @@
 
     <!-- Bootstrap core JavaScript
     Placed at the end of the document so the pages load faster -->
+    <script>
+        var typed = new Typed('#typed', {
+        strings:["INITIATE","INCUBATE","ELEVATE"],
+        typeSpeed:100,
+        backSpeed:5,
+        loop:true,
+        loopCount:Infinity,
+        smartBackspace: false,
+        });
+        var cursor=document.getElementsByClassName("typed-cursor")[0];
+        cursor.innerHTML="_";
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
