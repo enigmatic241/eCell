@@ -1,13 +1,5 @@
-/*
-* Theme Name: BusinessPerfect
-* Theme URI: milansavov.com/freebies/businessperfect
-* Author: Milan Savov
-* Author URI: milansavov.com
-* Version: 1.0
-* */
 
-/* TABLE OF CONTENT 
-*
+/*
 * - CUSTOM RESETS
     - Buttons
     - Forms
@@ -23,17 +15,11 @@
 * - HOMEPAGE SECTIONS
     - Quote 
     - Featured Works
-    - Service 
-    - Counter 
-    - Team 
-    - Clients 
+    - Service  
+    - Team  
     - Social networks 
 * - PAGES
     - ABOUT-US
-    - PORTFOLIO
-    - PORTFOLIO ITEM
-    - BLOG
-    - BLOG POST
     - CONTACT
 * - FOOTER
 *
@@ -44,7 +30,18 @@
 a { 
     color: #ffd500;
 }
-
+.site-logo{
+  width:14%;
+  height:14%;
+  margin-top: 0%;
+}
+.footer-logo{
+  width:40%;
+  height:40%;
+}
+.right-nav-links{
+  margin-top:1.5%;
+} 
 a:focus,
 a:hover {
     color: #3B3A36;
@@ -891,7 +888,7 @@ blockquote {
 /* HEADER
 ================================================== */
 .site-header {
-  padding: 10px 0;
+  padding: 4px 10px;
   background-color: rgba(59,58,54,0);
   position: fixed;
   width: 100%;
@@ -926,6 +923,7 @@ blockquote {
 /* Navigation */
 .navbar-nav.navbar-right {
   margin-right: 0;
+  font-size:1.5em;
 }
 
 .navbar-nav > li > a,
@@ -1008,7 +1006,7 @@ blockquote {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/main-pic.jpg) center no-repeat;
+  background: url(../img/we-are-creative.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -1021,15 +1019,13 @@ blockquote {
 }
 
 .hero-about-us {
- background: url(../img/about-us.jpg) center no-repeat / cover; 
+ background-image: url(../img/about-us.jpg);
+ background-size: center cover; 
 }
 
 .hero-contact {
- background: url(../img/contact.jpg) center no-repeat / cover; 
-}
-
-.hero-ui-elements {
- background: url(../img/ui-elements.jpg) center no-repeat / cover; 
+ background-image: url(../img/contact-2.jpg);
+ background-size: center cover;
 }
 
 .background-overlay:before {
@@ -1103,15 +1099,15 @@ blockquote {
 
 .section-title {
   position: relative;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   padding: 0 0 30px 0;
   margin: 0;
 }
 
 .section-title-big {
-  font-size: 64px;
-  margin:0 0 60px 0;
+  font-size: 34px;
+  margin:0 0 20px 0;
   font-weight: 700;
 }
 
@@ -1125,9 +1121,9 @@ blockquote {
 
   line-height: 25px;
   max-width: 1000px;
-  margin: 0 auto 60px;
-  font-size:30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  margin: 0px auto 5px;
+  font-size:20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* PAGES
@@ -1165,12 +1161,14 @@ blockquote {
   height: 400px;
 }
 
-.section-works .container-fluid {
+.section-works{
   padding: 0 7.5px;
 }
-
+/* .container-fluid {
+  padding: 0px;
+} */
 .multi-item-controls {
-  margin: 60px 0;
+  margin: 30px 0;
   height: 45px;
 }
 
@@ -1216,7 +1214,7 @@ display: none;
 }
 
 .service + .service {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .service p:last-child {
@@ -1283,6 +1281,7 @@ display: none;
 
 .team-member {
   width: 100%;
+  padding: 20px;
 }
 
 .team-member-img {
@@ -1488,6 +1487,10 @@ display: none;
   position: relative;
   bottom: 0;
   margin-top: 20px;
+}
+.row .fa,
+.row .far{
+  color:white;
 }
 
 .section-clients-2 .slick-dots {
@@ -1934,7 +1937,7 @@ a.post-title:hover,
 /* Section: contact-us */
 .section-contact-us .site-section-small {
   position: relative;
-  height: 600px;
+  height: 500px;
 }
 
 .get-in-touch {
@@ -1971,14 +1974,14 @@ a.post-title:hover,
 /* FOOTER
 ================================================== */
 .site-footer {
-  padding-top: 100px;
+  padding-top: 40px;
   background: #fff;
   position: relative;
 }
 
 .site-footer .row {
-  margin-top: 70px;
-  margin-bottom: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .email {
@@ -2046,4 +2049,129 @@ a.post-title:hover,
 .copyright .yellow-text:hover {
   color: #ffd500;
   text-decoration: underline;
+}
+
+/* team members */
+.heading-title {
+  margin-bottom: 100px;
+}
+.text-center {
+  text-align: center;
+}
+.heading-title h3 {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.p-top-30 {
+  padding-top: 30px;
+}
+.half-txt {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 25px;
+  color: #7e7e7e;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+  position: relative;
+}
+.team-member {
+  overflow: hidden;
+}
+.team-member, .team-member .team-img {
+  position: relative;
+}
+
+.team-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.90);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.team-member:hover .team-hover .desk {
+  top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+.team-hover .desk {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+  text-align: center;
+  color: #222;
+}
+.team-member:hover .team-hover .s-link {
+  bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+.team-hover .s-link {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-transform: translateY(45%);
+  -ms-transform: translateY(45%);
+  transform: translateY(45%);
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+  text-align: center;
+  color: #222;
+}
+.team-member .s-link a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 16px;
+}
+.s-link .fa{
+  color: #222;
+}
+.team-title {
+  position: static;
+  padding: 20px 0;
+  display: inline-block;
+  letter-spacing: 2px;
+  width: 100%;
+}
+.team-title h5 {
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+}
+.team-title span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a5a5a5;
+  letter-spacing: 1px;
+}
+
+.container .row{
+  padding: 50px;
 }
