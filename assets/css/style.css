@@ -1030,7 +1030,7 @@ blockquote {
 
 .background-overlay:before {
   content: '';
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(3,3,3, 0.6);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1044,6 +1044,14 @@ blockquote {
   display: table-cell;
   vertical-align: middle;
   position: relative;
+  /* font-family:"Poiret+One"; */
+  /* font-family:"Dosis"; +1 */
+  /* font-family:"Exo"; */
+  /* font-family:"Oswald"; */
+  /* font-family:"Raleway"; +2 */
+  font-family: 'Livvic', sans-serif; 
+  /* font-family: 'Press Start 2P', cursive; */
+
 }
 
 .hero-text h1 {
