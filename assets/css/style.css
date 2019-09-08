@@ -1094,7 +1094,7 @@ blockquote {
 }
 
 .site-section-small {
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -1164,9 +1164,9 @@ blockquote {
 .section-works{
   padding: 0 7.5px;
 }
-.container-fluid {
+/* .container-fluid {
   padding: 0px;
-}
+} */
 .multi-item-controls {
   margin: 30px 0;
   height: 45px;
@@ -1232,7 +1232,7 @@ display: none;
 .fa-egg{
   color:#4169E1;
   font-size:30px;
-  padding-top: 10%;
+  padding-top: 25%;
 
 }
 
@@ -1281,6 +1281,7 @@ display: none;
 
 .team-member {
   width: 100%;
+  padding: 20px;
 }
 
 .team-member-img {
@@ -1487,7 +1488,8 @@ display: none;
   bottom: 0;
   margin-top: 20px;
 }
-.fa,.far{
+.row .fa,
+.row .far{
   color:white;
 }
 
@@ -1935,7 +1937,7 @@ a.post-title:hover,
 /* Section: contact-us */
 .section-contact-us .site-section-small {
   position: relative;
-  height: 400px;
+  height: 500px;
 }
 
 .get-in-touch {
@@ -2047,4 +2049,129 @@ a.post-title:hover,
 .copyright .yellow-text:hover {
   color: #ffd500;
   text-decoration: underline;
+}
+
+/* team members */
+.heading-title {
+  margin-bottom: 100px;
+}
+.text-center {
+  text-align: center;
+}
+.heading-title h3 {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.p-top-30 {
+  padding-top: 30px;
+}
+.half-txt {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  line-height: 25px;
+  color: #7e7e7e;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+  position: relative;
+}
+.team-member {
+  overflow: hidden;
+}
+.team-member, .team-member .team-img {
+  position: relative;
+}
+
+.team-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  border: 20px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.90);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.team-member:hover .team-hover .desk {
+  top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+.team-hover .desk {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+  text-align: center;
+  color: #222;
+}
+.team-member:hover .team-hover .s-link {
+  bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+  opacity: 1;
+}
+.team-hover .s-link {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-transform: translateY(45%);
+  -ms-transform: translateY(45%);
+  transform: translateY(45%);
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+  text-align: center;
+  color: #222;
+}
+.team-member .s-link a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 16px;
+}
+.s-link .fa{
+  color: #222;
+}
+.team-title {
+  position: static;
+  padding: 20px 0;
+  display: inline-block;
+  letter-spacing: 2px;
+  width: 100%;
+}
+.team-title h5 {
+  margin-bottom: 0px;
+  display: block;
+  text-transform: uppercase;
+}
+.team-title span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a5a5a5;
+  letter-spacing: 1px;
+}
+
+.container .row{
+  padding: 50px;
 }
