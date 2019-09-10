@@ -63,6 +63,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+.IIE-cards{
+  padding-bottom:30px;   /*in phone view for proper view*/
+}
+.IIE-container{
+  padding-bottom: 0px !important;
+  padding-top:70px !important;
+}
 /* 
  * Buttons 
  */
