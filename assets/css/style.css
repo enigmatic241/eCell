@@ -41,6 +41,7 @@ a {
 }
 .right-nav-links{
   margin-top:1.5%;
+  font-family: 'Oxygen', sans-serif;
 } 
 a:focus,
 a:hover {
@@ -74,6 +75,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-left:0px !important;
   padding-right:0px !important;
 }
+.container-fluid-custom{
+  max-width: 70%;
+  margin:auto;
+}
+
+@media (max-width: 1500px) {
+  .container-fluid-custom {
+    max-width: 95% !important;
+  }
+}
+
+
 /* 
  * Buttons 
  */
@@ -913,11 +926,11 @@ blockquote {
 }
 
 /* Site-logo */
-.site-title {
+/* .site-title {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
-}
+} */
 
 .site-title span {
   font-weight: 700;
@@ -934,7 +947,8 @@ blockquote {
 /* Navigation */
 .navbar-nav.navbar-right {
   margin-right: 0;
-  font-size:1.5em;
+  font-size:1.7em;
+  
 }
 
 .navbar-nav > li > a,
@@ -942,8 +956,7 @@ blockquote {
   line-height: 30px;
   padding: 0 5px ;
   margin:  0 7px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: lighter;
   color: #fff;
 }
 
@@ -958,7 +971,7 @@ blockquote {
 .slicknav_nav li.active > a,
 .slicknav_nav .dropdown.active > a a,
 .slicknav_nav .active .active a {
-  color: #ffd500;  
+  color:royalblue;  
 }
 
 .slicknav_nav > li > a .slicknav_arrow {
@@ -1113,15 +1126,16 @@ blockquote {
 }
 
 .site-section-small {
-  padding: 120px 0;
+  padding: 90px 40px;
 }
 
 .section-title {
   position: relative;
-  font-size: 30px;
-  font-weight: 700;
-  padding: 0 0 30px 0;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 30px 0 30px 0;
   margin: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
 .section-title-big {
@@ -1138,11 +1152,11 @@ blockquote {
 
 .section-text {
 
-  line-height: 25px;
-  max-width: 1000px;
+  line-height: 30px; /*change 25 to 30px*/
+  max-width: 800px;
   margin: 0px auto 5px;
   font-size:20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 /* PAGES
