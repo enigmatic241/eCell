@@ -93,6 +93,13 @@ h1, h2, h3, h4, h5, h6 {
 .team-hr{
  border: 1px solid royalblue; 
 }
+.team-titles{                           /*for team page titles fonts*/
+  font-family: 'Rubik', sans-serif;
+}
+.team-core-heading{
+  margin-bottom:2vw;
+  margin-top:2vw;
+}
 @media (max-width: 1500px) {
   .container-fluid-custom {
     max-width: 95% !important;
