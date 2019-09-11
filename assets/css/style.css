@@ -85,9 +85,25 @@ h1, h2, h3, h4, h5, h6 {
 .top-team-page{
   width:80%;
 }
+.custom-hr{
+  border: 1px solid royalblue; 
+  width:20%;
+}
+
+.team-hr{
+ border: 1px solid royalblue; 
+}
 @media (max-width: 1500px) {
   .container-fluid-custom {
     max-width: 95% !important;
+  }
+}
+@media (max-width: 750px){
+  .custom-hr{
+    width:33%;
+  }
+  .team-hr{
+    width:80%;
   }
 }
 
@@ -1137,8 +1153,9 @@ blockquote {
 .section-title {
   position: relative;
   font-size: 40px;
-  font-weight: 500;
-  padding: 30px 0 30px 0;
+  font-weight: 700;
+  /* padding: 30px 0 30px 0; */
+  padding-top:10px;
   margin: 0;
   font-family: 'Rubik', sans-serif;
 }
