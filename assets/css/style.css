@@ -27,6 +27,9 @@
 
 /* CUSTOM RESETS
 ================================================== */
+html {
+  scroll-behavior: smooth;
+}
 a { 
     color: #ffd500;
 }
