@@ -81,7 +81,7 @@
     
         <div class="hero-text">
             <h1>E-CELL IIIT LUCKNOW</h1>
-            <h1 style="color:blue; height:69px;text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
+            <h1 style="color:blue;height:69px;text-align:left;display:inline;margin-left:40vw;" id="typed"></h1>
         </div> <!-- /.hero-text -->
         <div class="hero-arrow">
             <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -324,7 +324,18 @@
 
     <!-- Bootstrap core JavaScript
     Placed at the end of the document so the pages load faster -->
-    
+    <script>
+        var typed = new Typed('#typed', {
+        strings:["INITIATE","INCUBATE","ELEVATE"],
+        typeSpeed:100,
+        backSpeed:5,
+        loop:true,
+        loopCount:Infinity,
+        smartBackspace: false,
+        });
+        var cursor=document.getElementsByClassName("typed-cursor")[0];
+        cursor.innerHTML="_";
+    </script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
