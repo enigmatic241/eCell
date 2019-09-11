@@ -27,6 +27,9 @@
 
 /* CUSTOM RESETS
 ================================================== */
+html {
+  scroll-behavior: smooth;
+}
 a { 
     color: #ffd500;
 }
@@ -79,10 +82,35 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 70%;
   margin:auto;
 }
+.top-team-page{
+  width:80%;
+}
+.custom-hr{
+  border: 1px solid royalblue; 
+  width:20%;
+}
 
+.team-hr{
+ border: 1px solid royalblue; 
+}
+.team-titles{                           /*for team page titles fonts*/
+  font-family: 'Rubik', sans-serif;
+}
+.team-core-heading{
+  margin-bottom:2vw;
+  margin-top:2vw;
+}
 @media (max-width: 1500px) {
   .container-fluid-custom {
     max-width: 95% !important;
+  }
+}
+@media (max-width: 750px){
+  .custom-hr{
+    width:33%;
+  }
+  .team-hr{
+    width:80%;
   }
 }
 
@@ -1132,8 +1160,9 @@ blockquote {
 .section-title {
   position: relative;
   font-size: 40px;
-  font-weight: 500;
-  padding: 30px 0 30px 0;
+  font-weight: 700;
+  /* padding: 30px 0 30px 0; */
+  padding-top:10px;
   margin: 0;
   font-family: 'Rubik', sans-serif;
 }
@@ -2188,7 +2217,7 @@ a.post-title:hover,
 }
 .team-title {
   position: static;
-  padding: 20px 0;
+  padding: 20px 20px;
   display: inline-block;
   letter-spacing: 2px;
   width: 100%;
