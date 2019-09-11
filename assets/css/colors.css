@@ -70,7 +70,7 @@ a:hover {
  /* Input fields */
 .form-control {
   background-color: #f9f8f8;
-  border: 1px solid #f9f8f8;
+  border: 1px solid royalblue;
 }
 
 .form-control:focus{
@@ -301,7 +301,7 @@ a.white-text:hover {
 .slicknav_nav li.active > a,
 .slicknav_nav .dropdown.active > a a,
 .slicknav_nav .active .active a {
-  color: #4169E1;  
+  color: rgb(175, 158, 233);  
 }
 
 .slicknav_nav > li > a .slicknav_arrow {
