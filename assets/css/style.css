@@ -89,6 +89,14 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid royalblue; 
   width:20%;
 }
+.nr-custom-hr{
+  border: 1px solid red;
+  width:50%;
+}
+.br-custom-hr{
+  border: 1px solid royalblue;
+  width:50%;
+}
 
 .team-hr{
  border: 1px solid royalblue; 
