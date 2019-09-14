@@ -37,6 +37,9 @@ a {
   line-height: 1.7em;
   font-size:1.2em;
 }
+.tag-title{
+  font-size:2em !important;
+}
 .site-logo{
   width:14%;
   height:14%;
