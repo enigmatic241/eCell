@@ -39,6 +39,8 @@ a {
 }
 .tag-title{
   font-size:2em !important;
+  padding-bottom:6%;
+  padding-left:5%;
 }
 .site-logo{
   width:14%;
