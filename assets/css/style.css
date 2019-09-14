@@ -33,6 +33,10 @@ html {
 a { 
     color: #ffd500;
 }
+.tagline-description{
+  line-height: 1.7em;
+  font-size:1.2em;
+}
 .site-logo{
   width:14%;
   height:14%;
