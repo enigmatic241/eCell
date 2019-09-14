@@ -43,9 +43,9 @@ a {
   padding-left:5%;
 }
 .site-logo{
-  width:14%;
-  height:14%;
-  margin-top: 0%;
+  width:53px;
+  /* height:14%; */
+  /* margin-top: 0%; */
 }
 .footer-logo{
   width:40%;
@@ -971,11 +971,6 @@ blockquote {
 }
 
 /* Site-logo */
-/* .site-title {
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 30px;
-} */
 
 .site-title span {
   font-weight: 700;
