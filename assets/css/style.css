@@ -27,6 +27,10 @@
 
 /* CUSTOM RESETS
 ================================================== */
+.gradient{
+  background: rgb(34,227,223);
+  background: linear-gradient(90deg, rgba(34,227,223,1) 0%, rgba(38,110,149,1) 1%, rgba(0,212,255,1) 100%);
+}
 html {
   scroll-behavior: smooth;
 }
